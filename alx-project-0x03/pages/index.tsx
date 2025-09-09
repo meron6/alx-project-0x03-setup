@@ -1,13 +1,9 @@
-import type { AppProps } from "next/app";
-import Layout from "@/components/layouts/Layout";
-import "@/styles/globals.css";
-
-function MyApp({ Component, pageProps }: AppProps) {
+const Home = () => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <div>
+      <h1>Welcome to Splash App</h1>
+    </div>
   );
-}
+};
 
-export default MyApp;
+export default Home;
