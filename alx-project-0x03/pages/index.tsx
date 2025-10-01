@@ -1,7 +1,7 @@
 const Home: React.FC = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      <h1 className="text-7xl font-thin"> Welcome to Splash App </h1>
+      <h1> Welcome to Splash App </h1>
     </div>
   );
 };
