@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export interface HomeProps {}
+export interface PageRouteProps {}
 
 export interface ButtonProps {
   buttonLabel: string;
